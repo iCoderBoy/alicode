@@ -76,7 +76,7 @@ function calculateHeartbeats(date, heartRate = 70) {
 }
 
 let startDate = prompt("Enter a date to start (e.g., 12 02 2022 12:55 or 12-02-2022 12:55 or 12.02.2022 12.55)");
-let endDate = new Date(); // Today's date in ISO format
+let endDate = new Date(); 
 
 let difference = calculateDateDifference(startDate, endDate);
 console.log(`Years: ${difference.years}`);
